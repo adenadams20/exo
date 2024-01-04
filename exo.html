@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1">bleu</button>
+    <button id="btn2">violet</button>
+    <button id="btn3">vert</button>
+    <button id="btn4">jaune</button>
+    <button id="btn5">orange</button>
+
+    <script>
+
+        const btn1 = document.getElementbyId("btn1");
+        const btn2 = document.getElementbyId("btn2");
+        const btn3 = document.getElementbyId("btn3");
+        const btn4 = document.getElementbyId("btn4");
+        const btn5 = document.getElementbyId("btn5");
+        
+        btn1.onclick = () => document.body.style.backgroundColor = "blue";
+        btn2.onclick = () => document.body.style.backgroundcolor = "violet";
+        btn3.onclick = () => document.body.style.backgroundcolor = "green";
+        btn4.onclick = () => document.body.style.backgroundcolor = "yellow";
+        btn5.onclick = () => document.body.style.backgroundcolor = "orange";
+    </script>
+</body>
+</html>
